@@ -159,12 +159,6 @@ The next iteration of modeling that was deployed was an RNN Seq2Seq Model using 
 `An attention layer` is a critical component in modern neural network architectures, particularly in sequence-to-sequence models, and it plays a fundamental role in enhancing the model's ability to focus on specific parts of input data. Here's an explanation of the concept of an attention layer:
 
 # Results
-<style>
-  table {
-    font-size: 200%;
-    text-align: center;
-  }
-</style>
 
 | Model                               | Methodology                       | Results                    |
 | ----------------------------------- | --------------------------------- | -------------------------- |
