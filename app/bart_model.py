@@ -3,12 +3,8 @@ import streamlit as st
 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'  # Suppress TensorFlow informational and warning logs
 
-try:
-    from bs4 import BeautifulSoup
-except ModuleNotFoundError:
-    import subprocess
-    subprocess.check_call(["pip", "install", "beautifulsoup4"])
-    from bs4 import BeautifulSoup
+# Remove dynamic installation of beautifulsoup4
+from bs4 import BeautifulSoup
 
 from transformers import pipeline
 #plotting
