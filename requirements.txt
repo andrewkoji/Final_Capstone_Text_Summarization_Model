@@ -12,7 +12,7 @@ backports.weakref==1.0.post1
 blinker==1.6.2
 brotlipy==0.7.0
 cachetools==5.3.1
-clyent==1.2.2
+# Removed problematic version of clyent
 conda==23.1.0
 conda-build==3.23.3
 conda-repo-cli==1.0.27
