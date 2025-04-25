@@ -128,3 +128,4 @@ transformers==4.32.0
 matplotlib==3.8.0
 seaborn==0.12.2
 beautifulsoup4==4.12.2
+torch==1.12.1
